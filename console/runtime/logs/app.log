@@ -1,0 +1,371 @@
+2016-09-18 20:25:16 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '/', expecting \\ (T_NS_SEPARATOR) or ';' or '{'' in C:\xampp\htdocs\advanced\console\controllers\RbacController.php:2
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-09-18 20:25:16 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Szatan\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESTRUKTOR'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GTK_BASEPATH' => 'C:\\Program Files (x86)\\GtkSharp\\2.12\\'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Szatan'
+    'JD2_HOME' => 'E:\\jdown\\JDownloader v2.0'
+    'LOCALAPPDATA' => 'C:\\Users\\Szatan\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESTRUKTOR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Livestreamer;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Szatan\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Szatan\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Destruktor'
+    'USERDOMAIN_ROAMINGPROFILE' => 'Destruktor'
+    'USERNAME' => 'Szatan'
+    'USERPROFILE' => 'C:\\Users\\Szatan'
+    'VBOX_MSI_INSTALL_PATH' => 'E:\\Program Files\\Oracle\\VirtualBox\\'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'WWISEROOT' => 'C:\\Program Files (x86)\\Audiokinetic\\Wwise v2014.1.5 build 5282\\'
+    'WWISESDK' => 'C:\\Program Files (x86)\\Audiokinetic\\Wwise v2014.1.5 build 5282\\SDK'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1474223116.0546
+    'REQUEST_TIME' => 1474223116
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\advanced\\yii'
+    ]
+    'argc' => 1
+]
+2016-09-18 20:25:25 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '/', expecting \\ (T_NS_SEPARATOR) or ';' or '{'' in C:\xampp\htdocs\advanced\console\controllers\RbacController.php:2
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-09-18 20:25:25 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Szatan\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESTRUKTOR'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GTK_BASEPATH' => 'C:\\Program Files (x86)\\GtkSharp\\2.12\\'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Szatan'
+    'JD2_HOME' => 'E:\\jdown\\JDownloader v2.0'
+    'LOCALAPPDATA' => 'C:\\Users\\Szatan\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESTRUKTOR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Livestreamer;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Szatan\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Szatan\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Destruktor'
+    'USERDOMAIN_ROAMINGPROFILE' => 'Destruktor'
+    'USERNAME' => 'Szatan'
+    'USERPROFILE' => 'C:\\Users\\Szatan'
+    'VBOX_MSI_INSTALL_PATH' => 'E:\\Program Files\\Oracle\\VirtualBox\\'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'WWISEROOT' => 'C:\\Program Files (x86)\\Audiokinetic\\Wwise v2014.1.5 build 5282\\'
+    'WWISESDK' => 'C:\\Program Files (x86)\\Audiokinetic\\Wwise v2014.1.5 build 5282\\SDK'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1474223125.8934
+    'REQUEST_TIME' => 1474223125
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\advanced\\yii'
+        1 => 'rbac'
+    ]
+    'argc' => 2
+]
+2016-09-18 20:26:27 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'file_put_contents(C:\xampp\htdocs\advanced\console/rbac/items.php): failed to open stream: No such file or directory' in C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\rbac\PhpManager.php:766
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 766, Array)
+#1 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\rbac\PhpManager.php(766): file_put_contents('C:\\xampp\\htdocs...', '<?php\nreturn [\n...', 2)
+#2 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\rbac\PhpManager.php(808): yii\rbac\PhpManager->saveToFile(Array, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\rbac\PhpManager.php(671): yii\rbac\PhpManager->saveItems()
+#4 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\rbac\BaseManager.php(123): yii\rbac\PhpManager->addItem(Object(yii\rbac\Permission))
+#5 C:\xampp\htdocs\advanced\console\controllers\RbacController.php(15): yii\rbac\BaseManager->add(Object(yii\rbac\Permission))
+#6 [internal function]: console\controllers\RbacController->actionInit()
+#7 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('init', Array)
+#10 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#11 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#12 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#13 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 C:\xampp\htdocs\advanced\yii(27): yii\base\Application->run()
+#15 {main}
+2016-09-18 20:26:27 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Szatan\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESTRUKTOR'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GTK_BASEPATH' => 'C:\\Program Files (x86)\\GtkSharp\\2.12\\'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Szatan'
+    'JD2_HOME' => 'E:\\jdown\\JDownloader v2.0'
+    'LOCALAPPDATA' => 'C:\\Users\\Szatan\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESTRUKTOR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Livestreamer;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Szatan\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Szatan\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Destruktor'
+    'USERDOMAIN_ROAMINGPROFILE' => 'Destruktor'
+    'USERNAME' => 'Szatan'
+    'USERPROFILE' => 'C:\\Users\\Szatan'
+    'VBOX_MSI_INSTALL_PATH' => 'E:\\Program Files\\Oracle\\VirtualBox\\'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'WWISEROOT' => 'C:\\Program Files (x86)\\Audiokinetic\\Wwise v2014.1.5 build 5282\\'
+    'WWISESDK' => 'C:\\Program Files (x86)\\Audiokinetic\\Wwise v2014.1.5 build 5282\\SDK'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1474223187.0111
+    'REQUEST_TIME' => 1474223187
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\advanced\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-09-18 20:32:03 [-][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '$admin' (T_VARIABLE)' in C:\xampp\htdocs\advanced\console\controllers\RbacController.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-09-18 20:32:03 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Szatan\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESTRUKTOR'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GTK_BASEPATH' => 'C:\\Program Files (x86)\\GtkSharp\\2.12\\'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Szatan'
+    'JD2_HOME' => 'E:\\jdown\\JDownloader v2.0'
+    'LOCALAPPDATA' => 'C:\\Users\\Szatan\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESTRUKTOR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Livestreamer;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Szatan\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Szatan\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Destruktor'
+    'USERDOMAIN_ROAMINGPROFILE' => 'Destruktor'
+    'USERNAME' => 'Szatan'
+    'USERPROFILE' => 'C:\\Users\\Szatan'
+    'VBOX_MSI_INSTALL_PATH' => 'E:\\Program Files\\Oracle\\VirtualBox\\'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'WWISEROOT' => 'C:\\Program Files (x86)\\Audiokinetic\\Wwise v2014.1.5 build 5282\\'
+    'WWISESDK' => 'C:\\Program Files (x86)\\Audiokinetic\\Wwise v2014.1.5 build 5282\\SDK'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1474223523.9734
+    'REQUEST_TIME' => 1474223523
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\advanced\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-09-18 20:32:26 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'createPost' for key 'PRIMARY'' in C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\rbac\DbManager.php(273): yii\db\Command->execute()
+#2 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\rbac\BaseManager.php(123): yii\rbac\DbManager->addItem(Object(yii\rbac\Permission))
+#3 C:\xampp\htdocs\advanced\console\controllers\RbacController.php(15): yii\rbac\BaseManager->add(Object(yii\rbac\Permission))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('init', Array)
+#8 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\xampp\htdocs\advanced\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'createPost' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('createPost', 2, 'Create a post', NULL, NULL, 1474223546, 1474223546)' in C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\rbac\DbManager.php(273): yii\db\Command->execute()
+#2 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\rbac\BaseManager.php(123): yii\rbac\DbManager->addItem(Object(yii\rbac\Permission))
+#3 C:\xampp\htdocs\advanced\console\controllers\RbacController.php(15): yii\rbac\BaseManager->add(Object(yii\rbac\Permission))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('init', Array)
+#8 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\xampp\htdocs\advanced\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'createPost' for key 'PRIMARY'
+)
+
+2016-09-18 20:32:26 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Szatan\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESTRUKTOR'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'GTK_BASEPATH' => 'C:\\Program Files (x86)\\GtkSharp\\2.12\\'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Szatan'
+    'JD2_HOME' => 'E:\\jdown\\JDownloader v2.0'
+    'LOCALAPPDATA' => 'C:\\Users\\Szatan\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESTRUKTOR'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\Livestreamer;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\Szatan\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\Szatan\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'Destruktor'
+    'USERDOMAIN_ROAMINGPROFILE' => 'Destruktor'
+    'USERNAME' => 'Szatan'
+    'USERPROFILE' => 'C:\\Users\\Szatan'
+    'VBOX_MSI_INSTALL_PATH' => 'E:\\Program Files\\Oracle\\VirtualBox\\'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'WWISEROOT' => 'C:\\Program Files (x86)\\Audiokinetic\\Wwise v2014.1.5 build 5282\\'
+    'WWISESDK' => 'C:\\Program Files (x86)\\Audiokinetic\\Wwise v2014.1.5 build 5282\\SDK'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1474223546.9415
+    'REQUEST_TIME' => 1474223546
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\advanced\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
