@@ -74,10 +74,10 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionIndex($cat = null)
+    public function actionIndex($id = null)
     {
-		if(!$cat) $query=Post::find();
-		else $query=Post::find()->where(['category_id' => $cat]);
+		if(!$id) $query=Post::find();
+		else $query=Post::find()->where(['category_id' => $id]);
 		$count = $query->count();
 		$pagination = new Pagination(['totalCount' => $count, 'pageSize' => 5]);
 		$posts = $query->offset($pagination->offset)->limit($pagination->limit)->all();

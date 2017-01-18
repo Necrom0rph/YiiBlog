@@ -29,14 +29,14 @@ AppAsset::register($this);
     <?php
     NavBar::begin([
         'brandLabel' => 'My Company',
-        'brandUrl' => Yii::$app->homeUrl,
+        'brandUrl' => Yii::$app->urlManagerFrontend->createAbsoluteUrl('index.php'),
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
     $menuItems = [
         ['label' => 'Home', 'url' => Yii::$app->urlManagerFrontend->createAbsoluteUrl('index.php')],
-		['label' => 'Kategorie', 'url' => ['/site/cats']]
+		['label' => 'Kategorie', 'url' => Yii::$app->urlManagerFrontend->createAbsoluteUrl('index.php?r=site%2Fcats')]
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];
