@@ -76,8 +76,8 @@ class SiteController extends Controller
      */
     public function actionIndex($id = null)
     {
-		if(!$id) $query=Post::find();
-		else $query=Post::find()->where(['category_id' => $id]);
+		if(!$id) $query=Post::find()->orderBy(['updated_at' => SORT_DESC]);
+		else $query=Post::find()->where(['category_id' => $id])->orderBy(['updated_at' => SORT_DESC]);
 		$count = $query->count();
 		$pagination = new Pagination(['totalCount' => $count, 'pageSize' => 5]);
 		$posts = $query->offset($pagination->offset)->limit($pagination->limit)->all();
