@@ -28,7 +28,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'My Company',
+        'brandLabel' => 'Blog',
         'brandUrl' => Yii::$app->urlManagerFrontend->createAbsoluteUrl('index.php'),
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
