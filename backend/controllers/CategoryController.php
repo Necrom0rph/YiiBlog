@@ -67,7 +67,7 @@ class CategoryController extends Controller
     public function actionIndex()
     {
         $dataProvider = new ActiveDataProvider([
-            'query' => Category::find(),
+            'query' => Category::find()->where(['<>', 'id', 1]),
         ]);
 
         return $this->render('index', [
@@ -137,7 +137,7 @@ class CategoryController extends Controller
 		$posts = $model->posts;
 		
 		foreach($posts as $post){
-			$post->category_id = 2;
+			$post->category_id = 1;
 			$post->save();
 		}
 		
