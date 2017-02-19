@@ -54,6 +54,7 @@ AppAsset::register($this);
 	if (\Yii::$app->user->can('createPost')){
 		$menuItems[] = ['label' => 'Dodaj post', 'url' => Yii::$app->urlManagerBackend->createAbsoluteUrl('index.php?r=post%2Fcreate')];
 		$menuItems[] = ['label' => 'Kategorie - zarządzaj', 'url' => Yii::$app->urlManagerBackend->createAbsoluteUrl('index.php?r=category')];
+		$menuItems[] = ['label' => 'Posty - zarządzaj', 'url' => Yii::$app->urlManagerBackend->createAbsoluteUrl('index.php?r=post')];
 	}
 	if (\Yii::$app->user->can('adminPanel')){
 		$menuItems[] = ['label' => 'Zarządzaj userami', 'url' => Yii::$app->urlManagerBackend->createAbsoluteUrl('index.php?r=user')];
