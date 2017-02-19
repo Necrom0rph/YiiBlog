@@ -137,11 +137,11 @@ class CategoryController extends Controller
 		$posts = $model->posts;
 		
 		foreach($posts as $post){
-			$post->category = 0;
+			$post->category_id = 0;
 			$post->save();
 		}
 		
-        $model->delete();
+        $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
     }
