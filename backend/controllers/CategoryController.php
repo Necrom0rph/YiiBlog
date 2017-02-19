@@ -137,7 +137,7 @@ class CategoryController extends Controller
 		$posts = $model->posts;
 		
 		foreach($posts as $post){
-			$post->category_id = 0;
+			$post->category_id = 2;
 			$post->save();
 		}
 		
