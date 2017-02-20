@@ -5,6 +5,7 @@ namespace backend\controllers;
 use Yii;
 use common\models\Post;
 use yii\data\ActiveDataProvider;
+use common\models\PostSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -66,11 +67,14 @@ class PostController extends Controller
      */
     public function actionIndex()
     {
-        $dataProvider = new ActiveDataProvider([
+        /*$dataProvider = new ActiveDataProvider([
             'query' => Post::find(),
-        ]);
+        ]);*/
+		$searchModel = new PostSearch();
+		$dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
+			'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
     }
