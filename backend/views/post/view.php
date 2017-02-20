@@ -35,16 +35,16 @@ $this->params['breadcrumbs'][] = $this->title;
             'content:ntext',
             'created_at:datetime',
             [
-				'label' => 'created_by',
+				'label' => 'Created By',
 				'value' => User::find()->where(['id' => $model->created_by])->one()->username
 			],
             'updated_at:datetime',
             [
-				'label' => 'updated_by',
+				'label' => 'Updated By',
 				'value' => User::find()->where(['id' => $model->updated_by])->one()->username
 			],
             [
-				'label' => 'category',
+				'label' => 'Category',
 				'value' => Category::find()->where(['id' => $model->category_id])->one()->name
 			],
         ],
