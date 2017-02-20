@@ -36,16 +36,16 @@ $this->params['breadcrumbs'][] = $this->title;
             'created_at:datetime',
             [
 				'label' => 'created_by',
-				'value' => User::find()->where(['id' => $model->created_by])->one()->username;
+				'value' => User::find()->where(['id' => $model->created_by])->one()->username
 			],
             'updated_at:datetime',
             [
 				'label' => 'updated_by',
-				'value' => User::find()->where(['id' => $model->updated_by])->one()->username;
+				'value' => User::find()->where(['id' => $model->updated_by])->one()->username
 			],
             [
 				'label' => 'category',
-				'value' => Category::find()->where(['id' => $model->category_id])->one()->name;
+				'value' => Category::find()->where(['id' => $model->category_id])->one()->name
 			],
         ],
     ]) ?>
