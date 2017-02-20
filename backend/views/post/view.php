@@ -2,6 +2,8 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
+use common\models\User;
+use common\models\Category;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Post */
@@ -31,11 +33,20 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'name',
             'content:ntext',
-            'created_at',
-            'created_by',
-            'updated_at',
-            'updated_by',
-            'category_id',
+            'created_at:datetime',
+            [
+				'label' => 'created_by',
+				'value' => User::find()->where(['id' => $model->created_by])->one()->username;
+			],
+            'updated_at:datetime',
+            [
+				'label' => 'updated_by',
+				'value' => User::find()->where(['id' => $model->updated_by])->one()->username;
+			],
+            [
+				'label' => 'category',
+				'value' => Category::find()->where(['id' => $model->category_id])->one()->name;
+			],
         ],
     ]) ?>
 
