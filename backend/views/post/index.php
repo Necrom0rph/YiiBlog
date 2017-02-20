@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
+use common\models\User;
 
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
@@ -28,8 +29,15 @@ $this->params['breadcrumbs'][] = $this->title;
             'name',
             'content:ntext',
             'created_at:datetime',
-            'created_by',
-            // 'updated_at',
+            'updated_at:datetime',
+			[
+				'class' => 'yii\grid\DataColumn',
+				'value' => function($data)
+				{
+					return User::find()->where(['id' => $data->created_by])->one()->username;
+				},
+			],
+			//'created_by',
             // 'updated_by',
             // 'category_id',
 
