@@ -32,6 +32,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'updated_at:datetime',
 			[
 				'class' => 'yii\grid\DataColumn',
+				'attribute' => 'created_by',
 				'value' => function($data)
 				{
 					return User::find()->where(['id' => $data->created_by])->one()->username;
